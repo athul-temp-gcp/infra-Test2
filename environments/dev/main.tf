@@ -2,7 +2,7 @@ resource "google_compute_instance" "vmtest01" {
   name         = "vmtest01-instance"
   project      = var.gcp.project
   zone         = "${var.gcp.region}-a"
-  machine_type = "n1-standard-1"
+  machine_type = "n1-standard-2"
 
   boot_disk {
     initialize_params {
