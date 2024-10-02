@@ -6,7 +6,7 @@ resource "google_compute_instance" "vmtest01" {
 
   boot_disk {
     initialize_params {
-      image = "Ubuntu 22.04 LTS"
+      image = "debian-cloud\debian-11-bullseye-v20240910"
     }
   }
 
